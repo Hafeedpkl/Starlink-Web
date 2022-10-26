@@ -1,0 +1,393 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#spotlight {
+    width: 100%;
+    height: 100vh;
+    background: url("https://api.starlink.com/public-files/Marketing_LandingFeatured_Redesign.webp") no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+
+.header1 {
+    width: 34%;
+    height: 100%;
+    /* background-color: rgba(127, 255, 212, 0.418); */
+
+}
+
+.header2 {
+    width: 621px;
+    height: 100%;
+    /* background: rgba(255, 1, 1, 0.164); */
+
+}
+
+.header3 {
+    width: 34%;
+    height: 100%;
+    /* background: rgba(15, 255, 27, 0.212); */
+    display: flex;
+    justify-content: row;
+
+}
+
+.inner-header2 {
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    place-content: stretch space-between;
+    align-items: stretch;
+    flex: 1 1 1e-9px;
+    
+    /* background-color: blue; */
+}
+
+.ulll {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 4%;
+
+}
+
+.list {
+    margin-top: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.inner-body {
+    padding: 10px;
+    background-color: brown;
+    width: 620px;
+    height: 200x;
+    font-weight: 400;
+
+}
+
+.h2-1 {
+
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    font: 50px/50px DIN_Bold, Arial, Verdana, sans-serif;
+    font-weight: 400;
+    font-stretch: condensed;
+    font-size: 50px;
+    line-height: 40px;
+    font-family: Bold, Arial, Verdana, sans-serif;
+    font-weight: 600;
+
+
+}
+
+.para {
+    font: 16px/22px DIN_Regular, Arial, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffff;
+    text-align: center;
+    font-family: DIN_Regular, Arial, Verdana, sans-serif
+}
+
+.inner-footer1 {
+    /* background-color: blueviolet; */
+    height: 509px;
+    width: 620px;
+}
+
+.inner-address {
+    width: 620px;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Helvetica, Arial, Verdana, sans-serif
+}
+
+.form {
+    width: 620px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+.address-input {
+    width: 384px;
+    height: 27px;
+    background-color: rgba(196, 158, 158, 0.268);
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    border-radius: 4px;
+    color: #ffff;
+    font: 12px/18px Roboto, Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Roboto, Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 700
+}
+
+.address-button {
+    width: 190px;
+    height: 52px;
+    background-color: #ffff;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 4px;
+    font: 12px/18px Roboto, Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Roboto, Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 700
+}
+
+.inner-footer2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.check-availability {
+    width: auto;
+    height: 15px;
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px;
+    font: 12px/18px Roboto, Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px
+}
+
+.arrow {
+    height: 5px;
+    width: auto;
+    color: gray;
+    padding: 10px;
+    padding-left: 1px;
+    text-decoration: none;
+
+}
+
+.privacy-policy {
+    display: flex;
+
+    justify-content: center;
+    font: 10px/16px Roboto, Helvetica, Arial, Verdana, sans-serif;
+
+    font-size: 10px;
+    line-height: 16px;
+    font-family: Roboto, Helvetica, Arial, Verdana, sans-serif;
+    color: rgb(255, 172, 172)
+}
+
+.scrollme {
+    display: flex;
+    justify-content: center;
+
+}
+
+.inner-header3-1 {
+    height: 100%;
+    width: 35%;
+    /* background:cyan; */
+}
+
+.inner-header3 {
+    height: 100%;
+    width: 65%;
+    /* background:rgba(255, 0, 0, 0.242);  */
+}
+
+.ulll-2 {
+    padding: 9px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#spotlight-2 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    display: flex;
+
+}
+
+.sp2-section-1 {
+    width: 50%;
+    height: 100%;
+    background-color: #ffff;
+}
+
+.sp2-section1-image {
+    width: 952px;
+    height: 930px;
+
+}
+
+.sp2-section-2 {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 99px;
+}
+
+.sp2-section-text {
+    font: 50px/50px DIN_Bold, Arial, Verdana, sans-serif;
+    font-weight: 550;
+    font-size: 50px;
+    font-family: DIN_Bold, Arial, Verdana, sans-serif;
+    font-stretch: extra-condensed;
+
+}
+
+.para2 {
+    font: 16px/22px DIN_Regular, Arial, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffff;
+    font-family: DIN_Regular, Arial, Verdana, sans-serif;
+    font-stretch: extra-condensed;
+
+}
+
+.readMore-button {
+    width: 190px;
+    height: 52px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 4px;
+    font: 12px/18px Roboto, Helvetica, Arial, Verdana, sans-serif;
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Roboto, Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 700;
+
+}
+
+#spotlight-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+
+.sp3-section-1 {
+    width: 50%;
+
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 150px;
+
+}
+
+.viewSpecs-button {
+    width: 300px;
+    height: 52px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 4px;
+    font: 12px/18px Roboto, Helvetica, Arial, Verdana, sans-serif;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Roboto, Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 700;
+
+}
+
+.sp3-section-2 {
+    width: 50%;
+    height: 100%;
+
+}
+
+.sp4-section1-image {
+    width: 1277px;
+    height: 100%;
+    margin-right: 10px;
+
+}
+
+.para3 {
+    padding-bottom: 10px;
+    font: 16px/22px DIN_Regular, Arial, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffff;
+    font-family: DIN_Regular, Arial, Verdana, sans-serif;
+    font-stretch: extra-condensed;
+}
+
+.ORDER-button {
+    width: 190px;
+    height: 52px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 4px;
+    font: 12px/18px Roboto, Helvetica, Arial, Verdana, sans-serif;
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Roboto, Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 700;
+
+}
+
+#spotlight-4 {
+    height: 100vh;
+    background-color: #272626;
+    opacity: 1;
+    display: flex;
+    height: 100vh;
+    background-color: #272626;
+    opacity: 1;
+
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+footer {
+display: flex;
+    background-color: black;
+    height: 180px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+
